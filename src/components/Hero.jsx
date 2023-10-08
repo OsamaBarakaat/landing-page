@@ -17,17 +17,24 @@ const Hero = () => {
             advantages.
           </p>
           <button
+            
             type="button"
             class="focus:outline-none w-full md:w-48 text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
           >
-            Looking for employees
+            <a href="https://jumpers.vercel.app/auth/signin">
+              Looking for employees
+            </a>
+            
           </button>
 
           <button
             type="button"
             class="focus:outline-none w-full md:w-48 text-white bg-teal-700	 hover:bg-teal-800 focus:ring-4 focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
           >
-            Job Seekers (Jumbers)
+            
+            <a href="https://jumpers.vercel.app/auth/signin">
+              Job Seekers (Jumbers)
+            </a>
           </button>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
